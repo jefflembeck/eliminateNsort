@@ -1,0 +1,10 @@
+Jeffrey Lembeck
+CSE 655
+Lab 3
+Due June 4, 2010
+
+eliminateNsort takes in two lists, L1 and L2, and it returns a sorted list that is the subset of L1 that does not intersect with L2.
+
+The mathematical notation behind this would be:  Sort(L1 - (L1 && L2))  [where && is used instead of the sign for intersection].
+
+The sorting style returns the list sorted from greatest to least.
